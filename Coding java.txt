@@ -1,0 +1,60 @@
+public class Portfolio {
+
+    public static void main(String[] args) {
+        // Personal Info
+        String name = "Boopathi M";
+        String course = "BCA (2024-2027)";
+        String college = "Sri Vasavi College Self Finance Wing, Bharathiyar University";
+        String department = "IT";
+        String learning = "HTML, CSS, JavaScript";
+
+        // Skills & Services
+        String[] skills = {"HTML", "CSS", "JavaScript", "Web Development"};
+        String service = "I provide basic web development pages.";
+
+        // Portfolio Project
+        String project = "Portfolio Basic HTML";
+
+        // Contact Info
+        String email = "boopathivasanthsandhra@gmail.com";
+        String phone = "9361183677";
+        String location = "Erode, India";
+
+        // Theme
+        String theme = "Clean & Professional (Blue + White, Modern, Simple, Clear Font)";
+
+        // Output Portfolio
+        System.out.println("======================================");
+        System.out.println("         PORTFOLIO - " + name);
+        System.out.println("======================================\n");
+
+        System.out.println("📌 About Me:");
+        System.out.println("   Course: " + course);
+        System.out.println("   College: " + college);
+        System.out.println("   Department: " + department);
+        System.out.println("   Currently Learning: " + learning + "\n");
+
+        System.out.println("💡 Skills:");
+        for (String skill : skills) {
+            System.out.println("   - " + skill);
+        }
+
+        System.out.println("\n🛠️ Services:");
+        System.out.println("   " + service + "\n");
+
+        System.out.println("📂 Portfolio Project:");
+        System.out.println("   " + project + "\n");
+
+        System.out.println("📞 Contact Information:");
+        System.out.println("   Email: " + email);
+        System.out.println("   Phone: +91 " + phone);
+        System.out.println("   Location: " + location + "\n");
+
+        System.out.println("🎨 Design Preferences:");
+        System.out.println("   " + theme);
+
+        System.out.println("\n======================================");
+        System.out.println("       Thank you for visiting!");
+        System.out.println("======================================");
+    }
+}
